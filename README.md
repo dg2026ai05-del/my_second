@@ -99,7 +99,7 @@ else:
 <grok-card data-id="1fe082" data-type="image_card" data-plain-type="render_searched_image"  data-arg-size="LARGE" ></grok-card>
 
         else:
-            result = f"아이고... {name} 졌네 ㅠㅠ"
+            result = f"아이고... {name} 졌네 ㅠㅠ" 
             st.error(result, icon="😿")
             rain(emoji="😿", font_size=50, falling_speed=3, animation_length=2)
 
